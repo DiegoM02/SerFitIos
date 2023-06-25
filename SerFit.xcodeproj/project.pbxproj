@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27D02D5129EA44C10097B57B /* SerFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D02D5029EA44C10097B57B /* SerFitApp.swift */; };
+		27D02D5329EA44C10097B57B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D02D5229EA44C10097B57B /* ContentView.swift */; };
+		27D02D5529EA44C20097B57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D02D5429EA44C20097B57B /* Assets.xcassets */; };
+		27D02D5829EA44C20097B57B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D02D5729EA44C20097B57B /* Preview Assets.xcassets */; };
+		27D02D5A29EA44C20097B57B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D02D5929EA44C20097B57B /* Persistence.swift */; };
+		27D02D5D29EA44C20097B57B /* SerFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27D02D5B29EA44C20097B57B /* SerFit.xcdatamodeld */; };
+		27D02D6829EA44C20097B57B /* SerFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D02D6729EA44C20097B57B /* SerFitTests.swift */; };
+		27D02D7229EA44C20097B57B /* SerFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D02D7129EA44C20097B57B /* SerFitUITests.swift */; };
+		27D02D7429EA44C20097B57B /* SerFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D02D7329EA44C20097B57B /* SerFitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27D02D6429EA44C20097B57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D02D4529EA44C10097B57B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27D02D4C29EA44C10097B57B;
+			remoteInfo = SerFit;
+		};
+		27D02D6E29EA44C20097B57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D02D4529EA44C10097B57B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27D02D4C29EA44C10097B57B;
+			remoteInfo = SerFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27D02D4D29EA44C10097B57B /* SerFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D02D5029EA44C10097B57B /* SerFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerFitApp.swift; sourceTree = "<group>"; };
+		27D02D5229EA44C10097B57B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27D02D5429EA44C20097B57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27D02D5729EA44C20097B57B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27D02D5929EA44C20097B57B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		27D02D5C29EA44C20097B57B /* SerFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SerFit.xcdatamodel; sourceTree = "<group>"; };
+		27D02D5E29EA44C20097B57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D02D6329EA44C20097B57B /* SerFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D02D6729EA44C20097B57B /* SerFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerFitTests.swift; sourceTree = "<group>"; };
+		27D02D6D29EA44C20097B57B /* SerFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D02D7129EA44C20097B57B /* SerFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerFitUITests.swift; sourceTree = "<group>"; };
+		27D02D7329EA44C20097B57B /* SerFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D02D4A29EA44C10097B57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D02D6029EA44C20097B57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D02D6A29EA44C20097B57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D02D4429EA44C10097B57B = {
+			isa = PBXGroup;
+			children = (
+				27D02D4F29EA44C10097B57B /* SerFit */,
+				27D02D6629EA44C20097B57B /* SerFitTests */,
+				27D02D7029EA44C20097B57B /* SerFitUITests */,
+				27D02D4E29EA44C10097B57B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27D02D4E29EA44C10097B57B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D02D4D29EA44C10097B57B /* SerFit.app */,
+				27D02D6329EA44C20097B57B /* SerFitTests.xctest */,
+				27D02D6D29EA44C20097B57B /* SerFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D02D4F29EA44C10097B57B /* SerFit */ = {
+			isa = PBXGroup;
+			children = (
+				27D02D5029EA44C10097B57B /* SerFitApp.swift */,
+				27D02D5229EA44C10097B57B /* ContentView.swift */,
+				27D02D5429EA44C20097B57B /* Assets.xcassets */,
+				27D02D5929EA44C20097B57B /* Persistence.swift */,
+				27D02D5E29EA44C20097B57B /* Info.plist */,
+				27D02D5B29EA44C20097B57B /* SerFit.xcdatamodeld */,
+				27D02D5629EA44C20097B57B /* Preview Content */,
+			);
+			path = SerFit;
+			sourceTree = "<group>";
+		};
+		27D02D5629EA44C20097B57B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27D02D5729EA44C20097B57B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27D02D6629EA44C20097B57B /* SerFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				27D02D6729EA44C20097B57B /* SerFitTests.swift */,
+			);
+			path = SerFitTests;
+			sourceTree = "<group>";
+		};
+		27D02D7029EA44C20097B57B /* SerFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27D02D7129EA44C20097B57B /* SerFitUITests.swift */,
+				27D02D7329EA44C20097B57B /* SerFitUITestsLaunchTests.swift */,
+			);
+			path = SerFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D02D4C29EA44C10097B57B /* SerFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D02D7729EA44C20097B57B /* Build configuration list for PBXNativeTarget "SerFit" */;
+			buildPhases = (
+				27D02D4929EA44C10097B57B /* Sources */,
+				27D02D4A29EA44C10097B57B /* Frameworks */,
+				27D02D4B29EA44C10097B57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SerFit;
+			productName = SerFit;
+			productReference = 27D02D4D29EA44C10097B57B /* SerFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27D02D6229EA44C20097B57B /* SerFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D02D7A29EA44C20097B57B /* Build configuration list for PBXNativeTarget "SerFitTests" */;
+			buildPhases = (
+				27D02D5F29EA44C20097B57B /* Sources */,
+				27D02D6029EA44C20097B57B /* Frameworks */,
+				27D02D6129EA44C20097B57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D02D6529EA44C20097B57B /* PBXTargetDependency */,
+			);
+			name = SerFitTests;
+			productName = SerFitTests;
+			productReference = 27D02D6329EA44C20097B57B /* SerFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27D02D6C29EA44C20097B57B /* SerFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D02D7D29EA44C20097B57B /* Build configuration list for PBXNativeTarget "SerFitUITests" */;
+			buildPhases = (
+				27D02D6929EA44C20097B57B /* Sources */,
+				27D02D6A29EA44C20097B57B /* Frameworks */,
+				27D02D6B29EA44C20097B57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D02D6F29EA44C20097B57B /* PBXTargetDependency */,
+			);
+			name = SerFitUITests;
+			productName = SerFitUITests;
+			productReference = 27D02D6D29EA44C20097B57B /* SerFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D02D4529EA44C10097B57B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					27D02D4C29EA44C10097B57B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					27D02D6229EA44C20097B57B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 27D02D4C29EA44C10097B57B;
+					};
+					27D02D6C29EA44C20097B57B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 27D02D4C29EA44C10097B57B;
+					};
+				};
+			};
+			buildConfigurationList = 27D02D4829EA44C10097B57B /* Build configuration list for PBXProject "SerFit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27D02D4429EA44C10097B57B;
+			productRefGroup = 27D02D4E29EA44C10097B57B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D02D4C29EA44C10097B57B /* SerFit */,
+				27D02D6229EA44C20097B57B /* SerFitTests */,
+				27D02D6C29EA44C20097B57B /* SerFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D02D4B29EA44C10097B57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D02D5829EA44C20097B57B /* Preview Assets.xcassets in Resources */,
+				27D02D5529EA44C20097B57B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D02D6129EA44C20097B57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D02D6B29EA44C20097B57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D02D4929EA44C10097B57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D02D5D29EA44C20097B57B /* SerFit.xcdatamodeld in Sources */,
+				27D02D5A29EA44C20097B57B /* Persistence.swift in Sources */,
+				27D02D5329EA44C10097B57B /* ContentView.swift in Sources */,
+				27D02D5129EA44C10097B57B /* SerFitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D02D5F29EA44C20097B57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D02D6829EA44C20097B57B /* SerFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D02D6929EA44C20097B57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D02D7229EA44C20097B57B /* SerFitUITests.swift in Sources */,
+				27D02D7429EA44C20097B57B /* SerFitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27D02D6529EA44C20097B57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27D02D4C29EA44C10097B57B /* SerFit */;
+			targetProxy = 27D02D6429EA44C20097B57B /* PBXContainerItemProxy */;
+		};
+		27D02D6F29EA44C20097B57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27D02D4C29EA44C10097B57B /* SerFit */;
+			targetProxy = 27D02D6E29EA44C20097B57B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27D02D7529EA44C20097B57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27D02D7629EA44C20097B57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27D02D7829EA44C20097B57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SerFit.SerFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27D02D7929EA44C20097B57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SerFit.SerFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27D02D7B29EA44C20097B57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SerFit.SerFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SerFit";
+			};
+			name = Debug;
+		};
+		27D02D7C29EA44C20097B57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SerFit.SerFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SerFit";
+			};
+			name = Release;
+		};
+		27D02D7E29EA44C20097B57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SerFit.SerFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerFit;
+			};
+			name = Debug;
+		};
+		27D02D7F29EA44C20097B57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SerFit.SerFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D02D4829EA44C10097B57B /* Build configuration list for PBXProject "SerFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D02D7529EA44C20097B57B /* Debug */,
+				27D02D7629EA44C20097B57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D02D7729EA44C20097B57B /* Build configuration list for PBXNativeTarget "SerFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D02D7829EA44C20097B57B /* Debug */,
+				27D02D7929EA44C20097B57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D02D7A29EA44C20097B57B /* Build configuration list for PBXNativeTarget "SerFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D02D7B29EA44C20097B57B /* Debug */,
+				27D02D7C29EA44C20097B57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D02D7D29EA44C20097B57B /* Build configuration list for PBXNativeTarget "SerFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D02D7E29EA44C20097B57B /* Debug */,
+				27D02D7F29EA44C20097B57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27D02D5B29EA44C20097B57B /* SerFit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27D02D5C29EA44C20097B57B /* SerFit.xcdatamodel */,
+			);
+			currentVersion = 27D02D5C29EA44C20097B57B /* SerFit.xcdatamodel */;
+			path = SerFit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27D02D4529EA44C10097B57B /* Project object */;
+}
